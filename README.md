@@ -1,7 +1,7 @@
 # MovieCatalog
 MovieCatalog-.NetCore-MongoDB
 
-**Highlights of the Assignment : **
+**Highlights of the Assignment**
   1. Added middleware to track request processing time and save each requests made for movie search.
   2. Set up API-Key authentication on Admin actions.
   3. Additional movies search on 'search token' added.
