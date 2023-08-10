@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YNfS8bI4uduVg/kg0dHtNaLw93Rtwmlyw7GCZmpVlSKosvnZxOxyUQQvT8ylPcpVpKlHqKZdgjg6JJwCUaJv4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\haqadm2\\OneDrive - Stolt-Nielsen Limited\\Notes\\sampleProject\\MovieCatalog\\DomainLayer\\MovieCatalog.Domain.Model\\MovieCatalog.Domain.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\haqadm2\\.nuget\\packages\\mongodb.bson\\2.20.0\\mongodb.bson.2.20.0.nupkg.sha512",
+    "C:\\Users\\haqadm2\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

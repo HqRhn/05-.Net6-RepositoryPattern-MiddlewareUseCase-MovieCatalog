@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationLayer\MovieCatalog.ApplicationLayer.Service\MovieCatalog.Application.Service.csproj" />
+    <ProjectReference Include="..\Common\MovieCatalog.Common.Authentication\MovieCatalog.Common.Authentication.csproj" />
+    <ProjectReference Include="..\DomainLayer\MovieCatalog.Domain.Model\MovieCatalog.Domain.Model.csproj" />
+  </ItemGroup>
+
+
+</Project>

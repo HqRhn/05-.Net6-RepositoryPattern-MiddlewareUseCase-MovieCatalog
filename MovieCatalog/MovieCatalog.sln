@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieCatalog.Application.Api", "MovieCatalog.Application.Api.csproj", "{9E53A128-A446-49A4-9785-928157035DCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationLayer", "ApplicationLayer", "{74C97313-2991-415A-B81E-D546AC5DAC74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainLayer", "DomainLayer", "{4D13801D-D21C-41E5-A1DA-E8910CDF1D25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfrastructureLayer", "InfrastructureLayer", "{B5E157B6-E3F7-4842-9B0F-5F530BC10B65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieCatalog.Application.Service", "..\ApplicationLayer\MovieCatalog.ApplicationLayer.Service\MovieCatalog.Application.Service.csproj", "{6C1FFB3E-48D7-4C79-820D-09C900BE8A7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieCatalog.Domain.Model", "..\DomainLayer\MovieCatalog.Domain.Model\MovieCatalog.Domain.Model.csproj", "{B7BF1BEB-ECDB-4D86-963F-AEC61A125F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieCatalog.Infrastructure.Repository", "..\InfrastructureLayer\MovieCatalog.Infrastructure.Repository\MovieCatalog.Infrastructure.Repository.csproj", "{8150B460-DA0A-48CA-B08C-16B8ED4A3982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{683C8D7A-75D9-4E59-A2F1-761A540A16C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCatalog.Common.Authentication", "..\Common\MovieCatalog.Common.Authentication\MovieCatalog.Common.Authentication.csproj", "{53B243E7-5B17-43DD-8B25-8B2670D5A539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E53A128-A446-49A4-9785-928157035DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E53A128-A446-49A4-9785-928157035DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E53A128-A446-49A4-9785-928157035DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E53A128-A446-49A4-9785-928157035DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1FFB3E-48D7-4C79-820D-09C900BE8A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1FFB3E-48D7-4C79-820D-09C900BE8A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1FFB3E-48D7-4C79-820D-09C900BE8A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1FFB3E-48D7-4C79-820D-09C900BE8A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BF1BEB-ECDB-4D86-963F-AEC61A125F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BF1BEB-ECDB-4D86-963F-AEC61A125F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BF1BEB-ECDB-4D86-963F-AEC61A125F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BF1BEB-ECDB-4D86-963F-AEC61A125F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8150B460-DA0A-48CA-B08C-16B8ED4A3982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8150B460-DA0A-48CA-B08C-16B8ED4A3982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8150B460-DA0A-48CA-B08C-16B8ED4A3982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8150B460-DA0A-48CA-B08C-16B8ED4A3982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B243E7-5B17-43DD-8B25-8B2670D5A539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B243E7-5B17-43DD-8B25-8B2670D5A539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B243E7-5B17-43DD-8B25-8B2670D5A539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B243E7-5B17-43DD-8B25-8B2670D5A539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E53A128-A446-49A4-9785-928157035DCE} = {74C97313-2991-415A-B81E-D546AC5DAC74}
+		{6C1FFB3E-48D7-4C79-820D-09C900BE8A7C} = {74C97313-2991-415A-B81E-D546AC5DAC74}
+		{B7BF1BEB-ECDB-4D86-963F-AEC61A125F66} = {4D13801D-D21C-41E5-A1DA-E8910CDF1D25}
+		{8150B460-DA0A-48CA-B08C-16B8ED4A3982} = {B5E157B6-E3F7-4842-9B0F-5F530BC10B65}
+		{53B243E7-5B17-43DD-8B25-8B2670D5A539} = {683C8D7A-75D9-4E59-A2F1-761A540A16C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31622F0B-A460-4C2B-9460-AEABBF0586B1}
+	EndGlobalSection
+EndGlobal
