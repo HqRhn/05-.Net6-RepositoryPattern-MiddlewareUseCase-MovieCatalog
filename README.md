@@ -1,7 +1,7 @@
 # MovieCatalog
 MovieCatalog-.NetCore-MongoDB
 
-**Highlights of the Assignment**
+**Highlights of the Project**
   1. Added middleware to track request processing time and save each requests made for movie search.
   2. Set up API-Key authentication on Admin actions.
   3. Additional movies search on 'search token' added.
@@ -20,7 +20,5 @@ o Admin Actions (secure, via API-Key)
 ▪ HTTP-DELETE to delete an request entry
 
 
-Time estimated : 8 hours 
-Actual time taken : Approx 10 hours - took some additional time to finalzie the approach to record request processing time.
 
 **Solution path :** MovieCatalog/MovieCatalog.sln
