@@ -3,7 +3,10 @@ MovieCatalog-.NetCore-MongoDB
 
 **Highlights of the Project**
   1. Added middleware to track request processing time and save each requests made for movie search.
+   ![Untitled](https://github.com/HqRhn/MovieCatalog/assets/141786593/840b7882-9f9f-47ad-8b34-aa6cd7bbb849)
   2. Set up API-Key authentication on Admin actions.
+     ![Capture](https://github.com/HqRhn/MovieCatalog/assets/141786593/81fa1a45-3c75-4814-a77d-62d4de469c01)
+
   3. Additional movies search on 'search token' added.
 
 **Below End-points are present:**
